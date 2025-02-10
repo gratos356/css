@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background: aqua;
+    height: 100vh;
+}
+
+[href^="http"]{
+    color: red;
+}
+[href$="com"]{
+    color: red;
+}
+[href^="htts"]{
+    color: red;
+}
+input{
+    height: 60px;
+    width: 100%;
+}
+[type="text"]{
+    color: blueviolet;
+    background: yellow;
+    height: 90px;
+}
+[type="email"]{
+    color: red;
+    background: blue;
+    height: 75px;
+}
+[type="number"]{
+    color: peru;
+    background: red        ;
+}
+
+
